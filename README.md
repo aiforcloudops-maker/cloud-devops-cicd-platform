@@ -70,3 +70,14 @@ Container security practices include:
 - Docker health check
 - No unnecessary build files
 - Environment-based application configuration
+## 🔐 DevSecOps
+### Automated Security Pipeline
+
+Security scanning is integrated into GitHub Actions.
+
+The pipeline performs:
+
+- Filesystem vulnerability scanning
+- Dockerfile configuration scanning
+- HIGH and CRITICAL severity detection
+- Automated security validation on Pull Requests
