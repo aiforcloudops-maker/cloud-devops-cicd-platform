@@ -57,3 +57,16 @@ GitHub Actions
        ┌─────┴─────┐
        ▼           ▼
     Staging     Production
+## 🛠️ Technology Stack
+| Docker | Application containerization |
+### Containerization
+
+The application is packaged as a lightweight Docker container.
+
+Container security practices include:
+
+- Non-root container user
+- Minimal Python base image
+- Docker health check
+- No unnecessary build files
+- Environment-based application configuration
